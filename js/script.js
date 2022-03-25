@@ -14,10 +14,8 @@ function calculate () {
   const height = parseInt(document.getElementById('height-of-rectangle').value)
 
   // process
-  const area = base * height
-  const perimeter = 2 * (base + length)
+  const area = (base * height) / 2
 
   // output
   document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
-  document.getElementById('perimeter').innerHTML = 'Perimeter is: ' + perimeter + ' cm'
 }
